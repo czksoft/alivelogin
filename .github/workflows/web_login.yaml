@@ -3,7 +3,7 @@ name: Run Web Login Script
 on:
   workflow_dispatch:
   schedule:
-    - cron: "58 0 */7 * *"  # 每7天触发
+    - cron: "58 0 */2 * *"  # 每7天触发
 
 
 jobs:
